@@ -1,0 +1,16 @@
+
+Agentic AI Health Symptom Checker – Step-by-Step Base Logic (Paragraph Form)
+
+The AI agent begins the interaction by greeting the user and asking about their health issues in a friendly and natural manner. For example, it might say, "Hello! Please describe your symptoms, like fever, headache, sore throat, etc." The user then replies in natural language, for instance, "I have a sore throat and fever."
+
+The agent then processes the user’s message and extracts relevant symptoms using natural language understanding. In this example, it would identify two symptoms: sore throat and fever. If needed, the agent may ask a follow-up question to clarify other possible symptoms, such as, "Do you also have a cough or any difficulty breathing? Please answer yes or no." Based on the user’s response, the agent may add more symptoms to the list.
+
+Next, the agent searches verified medical sources like WHO or CDC symptom databases to match the extracted symptoms with possible medical conditions. For example, it might suggest: "Based on your symptoms, possible causes may include: 1) Viral infection (like the common flu), 2) Streptococcal sore throat, or 3) COVID-19, especially if there's a loss of taste or smell. These are only probable causes, not a diagnosis."
+
+The agent then tries to assess how serious the case is by checking factors like how high the fever is, how long it has lasted, and whether there are any danger signs like trouble breathing. If it finds the condition to be mild or moderate, it gives simple advice. Otherwise, it refers the user to a doctor immediately.
+
+Once the urgency is known, the agent provides educational, safe home remedies. For example: drink plenty of fluids, rest well, gargle with warm water, and you may take paracetamol if you are not allergic. It avoids giving risky or personal medical instructions.
+
+Finally, the agent always reminds the user that this is not a medical diagnosis and if symptoms worsen, they should consult a real doctor. The entire process is done in the user's language, whether it's English, Hindi, or any other supported language, using a translation layer if needed.
+
+This logical, agent-based flow ensures safe, clear, and educational support for users who want to understand their symptoms without risking misinformation or self-diagnosis.
